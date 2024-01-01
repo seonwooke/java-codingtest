@@ -1,6 +1,6 @@
 class Solution {
     public int solution(int n) {
-        int answer = (int) Math.ceil((double) n / (double) 7);
+        int answer = (n + 6) / 7;
         return answer;
     }
 }
